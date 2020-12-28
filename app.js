@@ -20,7 +20,7 @@ function main() {
 function addGrids(n, container) {
   for (i = 0; i < n * n; i++) {
     let square = document.createElement("div");
-    square.style.width = `${960 / n}px`;
+    square.style.width = `${500 / n}px`;
     square.style.height = `${500 / n}px`;
     square.classList.add("square");
     container.appendChild(square);
